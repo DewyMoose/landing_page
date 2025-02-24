@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "roboto";
 }
 
 .top-container {
@@ -123,4 +124,81 @@ nav ul {
     width: 100px;
     text-align: center;
     flex-wrap: wrap;
+}
+
+.quote-background {
+    background-color: #e5e7eb;
+    height: 500px;
+    display: flex;
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0 25% 0 25%;
+}
+
+.quote {
+    display: flex;
+    font-size: 36px;
+    color: #1f2937;
+    margin-top: 200px;
+}
+
+.author {
+    display: flex;
+    justify-content: end;
+    margin-top: 20px;
+    font-weight: 800;
+    font-size: 24px;
+}
+
+.call-to-action-background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.blue-action-background {
+    height: 200px;
+    width: 80%;
+    background-color: #3882f6;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.text {
+    flex-direction: column;
+    gap: 10px;
+    flex: 1 1 auto;
+    margin-left: 20px;
+}
+
+.main-text {
+    font-size: 36px;
+    color: #f9faf8;
+}
+
+.sub-text {
+    font-size: 20px;
+    color: #f9faf8;
+}
+
+.button-div {
+    display: flex;
+    flex: 1 1 auto;
+    justify-content: center;
+}
+
+.button-div button {
+    background-color: #3882f6;
+    font-size: 24px;
+    color: #f9faf8;
+    border-radius: 10px;
+    border-style: none;
+    padding: 10px;
+    border: 3px solid #f9faf8;
 }
